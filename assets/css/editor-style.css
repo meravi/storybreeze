@@ -1,0 +1,60 @@
+:root {
+	--sb-editor-bg: #f3f6fc;
+	--sb-editor-surface: #ffffff;
+	--sb-editor-text: #15203b;
+	--sb-editor-muted: #52607a;
+	--sb-editor-border: #d6e0ef;
+	--sb-editor-brand: #0f5ad7;
+	--sb-editor-brand-strong: #0a3d95;
+}
+
+body.block-editor-page,
+.editor-styles-wrapper {
+	background: var(--sb-editor-bg);
+	color: var(--sb-editor-text);
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	line-height: 1.7;
+}
+
+.editor-styles-wrapper a {
+	color: var(--sb-editor-brand-strong);
+}
+
+.editor-styles-wrapper .wp-block,
+.editor-styles-wrapper .editor-post-title__block {
+	max-width: 980px;
+}
+
+.editor-styles-wrapper .wp-block-button__link {
+	background: var(--sb-editor-brand);
+	border-radius: 999px;
+	font-weight: 700;
+}
+
+.editor-styles-wrapper .is-style-storybreeze-outline .wp-block-button__link,
+.editor-styles-wrapper .wp-block-button.is-style-storybreeze-outline .wp-block-button__link {
+	background: transparent;
+	border: 1px solid var(--sb-editor-border);
+	color: var(--sb-editor-text);
+}
+
+.editor-styles-wrapper .is-style-storybreeze-card {
+	background: var(--sb-editor-surface);
+	border: 1px solid var(--sb-editor-border);
+	border-radius: 14px;
+	box-shadow: 0 8px 20px rgba(14, 27, 61, 0.07);
+	padding: 1.25rem;
+}
+
+.editor-styles-wrapper .wp-caption {
+	border: 1px solid var(--sb-editor-border);
+	border-radius: 8px;
+	padding: 0.4rem;
+}
+
+.editor-styles-wrapper .wp-caption-text,
+.editor-styles-wrapper .gallery-caption {
+	color: var(--sb-editor-muted);
+	font-size: 0.84rem;
+	text-align: center;
+}

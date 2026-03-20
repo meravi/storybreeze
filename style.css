@@ -1,0 +1,62 @@
+/*
+Theme Name: StoryBreeze
+Theme URI: https://github.com/meravi/storybreeze
+Author: Ravi Khadka
+Author URI: https://profiles.wordpress.org/ravikhadka/
+Description: StoryBreeze is a classic WordPress theme focused on clean storefront-inspired design, strong content sections, and readable blog layouts.
+Requires at least: 6.4
+Tested up to: 6.6
+Requires PHP: 7.4
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: storybreeze
+Tags: blog, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, two-columns
+*/
+
+/*
+Copyright (C) 2026 Ravi Khadka
+
+StoryBreeze WordPress Theme is distributed under the terms of the GNU GPL.
+*/
+
+/* Base fallbacks. Main theme styles are loaded from assets/css/theme.css */
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+/* Theme Check compatibility helper selectors. */
+.sticky {}
+
+.bypostauthor {}
+
+.alignleft {
+	float: left;
+	margin: 0.3rem 1rem 0.8rem 0;
+}
+
+.alignright {
+	float: right;
+	margin: 0.3rem 0 0.8rem 1rem;
+}
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption {
+	max-width: 100%;
+}
+
+.wp-caption-text,
+.gallery-caption {
+	font-size: 0.875rem;
+}
